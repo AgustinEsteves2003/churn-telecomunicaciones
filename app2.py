@@ -34,7 +34,7 @@ StreamingTV = st.selectbox("Streaming TV", ["No", 'No internet service', "Yes"])
 StreamingMovies = st.selectbox("Streaming Movies", ["No", 'No internet service', "Yes"])
 
 
-model = joblib.load(r'C:\Users\agust\Downloads\xgb_telco_grid.joblib')
+model = joblib.load(r'xgb_telco_grid.joblib')
 
 # Expected features (from your training)
 FEATURES = ['tenure', 'MonthlyCharges', 'TotalCharges', 'gender_Female', 'gender_Male', 'SeniorCitizen_No', 'SeniorCitizen_Yes', "Partner_No", "Partner_Yes", "Dependents_No", "Dependents_Yes",
