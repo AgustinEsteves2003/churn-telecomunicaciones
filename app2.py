@@ -110,4 +110,4 @@ if st.button("Predict"):
         st.success(f"✅ El cliente permanecera en el servicio (Churn probability: {probability})")
 
     st.text("Creado por Agustin Esteves.")
-    st.write("[LinkedIn](https://www.linkedin.com/in/agustin-esteves-0617b22b4/)")
+    st.write("[LinkedIn](https://www.linkedin.com/in/agustin-esteves/)")
